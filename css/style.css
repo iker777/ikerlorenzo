@@ -1,0 +1,67 @@
+@font-face {
+   font-family: "Finlandica";
+   src: url("../fonts/Finlandica-Regular.ttf");
+}
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Finlandica";
+}
+.header_index{
+   height: 100vh;
+   background: linear-gradient(to bottom,rgba(176,176,187,.4) 0,rgba(51,48,47,.6) 100%),url(../img/portada.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: grayscale(90%);
+   position: relative;
+}
+.logo-name{
+   display: flex;
+}
+.logo-name__img{
+   width: 150px;
+   margin-left: 1em;
+   margin-top: 1em;
+   border-radius: 20px;
+}
+.logo-name__name{
+   display: flex;
+   align-items: center;
+   padding: 0.5em;
+}
+.logo__span{
+   font-size: 2.5em;
+}
+.nav{
+   background-color: rgba(255, 255, 255, 0.6);
+   padding: 0.7em;
+
+}
+.lista_nav__li{
+   display: inline-block;
+   margin-left: 4em;
+}
+.lista_nav__a{
+   text-decoration: none;
+   padding: 0.4em;
+   border-radius: 0.2em;
+}
+.lista_nav__a:hover{
+   font-weight: bold;
+}
+.lista_nav__a:active{
+   background-color: rgba(255, 255, 255, 0.7);
+}
+.header_quote{
+   background-color: rgba(0, 0, 0, 0.6);
+   color: white;
+   width: 50%;
+   position: relative;
+   top: 25%;
+   left: 25%;
+}
+.header_quote__p{
+   text-align: center;
+   font-size: 2em;
+}
